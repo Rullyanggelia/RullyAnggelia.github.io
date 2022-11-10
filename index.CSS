@@ -1,0 +1,208 @@
+:root {
+    --green:#d5e6bb97;
+}
+ 
+
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding:0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'open sans', sans-serif;
+}
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    padding:30px;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: courier;
+    color: hsl(0, 13%, 95%);
+}
+
+.menu{
+    float: right;
+}
+
+/*untuk mengatur bagian home*/
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 50px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: rgb(123, 147, 107);
+    z-index: 1;
+}
+
+nav ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/*untuk mengatur bagian menu*/
+nav ul li {
+    float: right;
+}
+
+nav ul li a{
+    color:rgb(250, 246, 246);
+    font-weight: bold;
+    text-align: center;
+    padding:0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+/*untuk mengatur bagian home, flex tampilan berbentuk kolom*/
+section{
+    margin:auto;
+    display: flex; 
+    margin-bottom: 50px;
+}
+
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(43, 46, 45);
+    font-family: 'comic sans ms';
+}
+
+h2{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: rgb(15, 14, 14);
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    background: rgb(113, 152, 50);
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: rgb(12, 12, 12);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover{
+    background: rgb(239, 241, 237);
+    text-decoration: none;
+}
+
+p{
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+
+
+.tengah{
+    text-align: center;
+    width: 100%;
+}
+
+.Minuman-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Aneka-minuman{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.Aneka-minuman img{
+    width: 80%;
+    border-bottom: 50%;
+}
+
+.Aneka-minuman p{
+    font-family: 'Lucida Sans';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(126, 175, 88);
+}
+
+.kue-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.aneka-kue{
+    width: 20%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aneka-kue img{
+    width: 150px;
+}
+
+.Aneka-kue p{
+    font-family: 'Lucida Sans';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(126, 175, 88);
+}
+
+#desert{
+    background: rgb(235, 248, 218);
+    padding: 100px 0px 100px 0px;
+}
+
+.footer{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section{
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3{
+    font-family: verdana;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgb(20, 21, 21);
+    width: 100%;
+    line-height: 50%;
+}
